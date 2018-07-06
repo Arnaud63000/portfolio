@@ -2,7 +2,11 @@
 
 <html>
     <head>
-        <meta charset="utf-8" />      
+        <meta charset="utf-8" />     
+        
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="js/like.js"></script>
         <link rel="stylesheet" href="css/portfolio.css">
         <title>Portfolio Dussart Arnaud</title>
     </head>
@@ -20,7 +24,7 @@
                     <a href="#acceuil">Acceuil</a>
                     <a href="#about">A propos</a>  
                     <a href="#contact">Contact</a>
-                    <a href="https://github.com/Arnaud63000"> Github </a>
+                    <a href="https://github.com/Arnaud63000">Github </a>
                  </nav>
 	         </div>
     </header>
@@ -29,6 +33,7 @@
           <!--bannière-->
     <section class="container-fluid banner">
         <div class="ban">
+            <img src="image/trombi.png" alt="photo profil" class="photo">
             <img src="image/background.jpg" alt="bannière du site">
                 </div>
               <div class="text-banner">
@@ -66,7 +71,7 @@
 
 
    <!--footer-->
-
+    
        <footer class="container-fluid footer"> 
         <div class="container">
             <div class="row">
@@ -85,6 +90,10 @@
                         <button id="contact-submit" type="submit" class="btn btn-primary input-medium pull-right">Envoyez</button>
                     </div>
                 </form>
+                <div class="btn-fb">
+                    <button id="add-like">Like</button>
+                    <span class="compteur">1</span>
+                </div>
             </div>
          </div>
 
@@ -94,4 +103,5 @@
 
     <!--end footer-->
 
-</body></html>
+</body>
+</html>
